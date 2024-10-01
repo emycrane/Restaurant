@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /* background-color:rgb(229, 75, 75) ; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 26, 78);
+    height: 70px;
+  }
+  
+  .logo {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1.9px 1.9px rgb(255, 255, 255));
+    font-size: large;
+    background: linear-gradient(whitesmoke, rgb(26, 26, 78));
+  }
+  
+  .first {
+    display: flex;
+    gap: 60px;
+    margin-right: 20%;
+  }
+  .first a {
+    color: snow;
+    text-transform: uppercase;
+    border-bottom: solid transparent 4px;
+    transition: 0.3s ease;
+    padding: 9px;
+  }
+  .first a:hover {
+    border-bottom: solid hsl(34, 93%, 50%);
+    letter-spacing: 2px;
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+    background-color: whitesmoke;
+    border-radius: 1.2px;
+  }
+  
+  .search {
+    border-radius: 10000px;
+    width: 18%;
+    height: 30px;
+    margin-right: 20px;
+    transition: 1.4s;
+  }
+  .search:hover {
+    padding: 18px;
+    /* margin: 1px; */
+  }
+
+input{
+    margin-right: 25px;
+    border-radius: 10000px;
+    width: 19%;
+    height: 29px;
+}
+
+.we{
+    background-image: url(tacos.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+.we h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  line;
+    background: linear-gradient(rgb(139, 134, 134), rgb(26, 26, 78));
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.voo{
+    color: rgb(0, 0, 0);
+}
+
+.space{
+    /* margin-left:%; */
+}
+
+.one{
+    background-color: rgb(91, 129, 141);
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.one:hover{
+    background-color: cornflowerblue;
+}
+.roll{
+    background-color: rgb(77, 196, 47);
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.roll:hover{
+    background-color: rgb(61, 92, 2);
+}
+
+
+#moo{
+    display: flex;
+}
+
+#noo{
+    display: flex;
+    margin-top: 9%;
+}
+
+span{
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.one h5{
+    background-color: bisque;
+    width: 150px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: linear-gradient(bisque,cornflowerblue);
+}
+.one h5:hover{
+   
+}
+
+.boo{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.fast{
+    background-image: url(delicious-steak-with-herbs-cut-on-slices.webp);
+    background-position: 30%;
+    background-size: cover;
+    border-radius: 9px;
+    height: 300px;
+    width: 100%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.pic,
+.pac,
+.nac{
+   
+    background-position: 80% 40%;
+    background-size: cover;
+    border-radius: 9px;
+    height: 300px;
+    width: 100%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.pic,
+.pac,
+.nac:hover{
+    background-color: rgb(61, 92, 2);
+    background-position: 80% 40%;
+    background-size: cover;
+    border-radius: 9px;
+    height: 300px;
+    width: 100%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.pic{
+    background-image: url(w7.jpg);
+}
+
+.pac{
+    background-image: url(tacos.webp);
+}
+.nac{
+    background-image: url(barista-5055060_1280.jpg);
+}
+
+.wrap{
+    margin-top: 50%;
+    border: 3px solid black;
+    width: 90%;
+    margin: aut;
+    height: 100px;
+    background-color: blue;
+}
+
+#item{
+    background-image: url(tacos.webp);
+    background-size:cover;
+    width: 95%;
+    height: 250px;
+    background-color: coral;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    position: relative;
+}
+
+.host{
+    background-color: aquamarine;
+    width: 20%;
+    position: absolute;
+    height: 240px;
+    margin-left: 12px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
